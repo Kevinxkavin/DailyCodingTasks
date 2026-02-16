@@ -1,0 +1,27 @@
+class Solution {
+    public int reverseBits(int n) {
+        int result=0;
+        for(int i=0;i<32;i++)
+        
+        {
+            result <<=1;
+            result |=(n&1);
+            n>>=1;
+        }
+        return result;
+    }
+}
+
+
+
+🧠 What These 3 Lines Really Do
+
+Every loop:
+
+Make space in result (shift left)
+
+Take last bit of n
+
+Put that bit into result
+
+Remove that bit from n
