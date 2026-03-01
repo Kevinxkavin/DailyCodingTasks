@@ -50,3 +50,15 @@ class Solution {
 }
 
 
+-------------
+
+    helper(47)
+
+47 / 10 = 4 → "Forty"
+47 % 10 = 7 → helper(7)
+
+Result:
+-------------
+1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
+
+
